@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ใบสมัครสมาชิกนักศึกษา</title>
+</head>
+<body>
+    <h2>ใบสมัครสมาชิกนักศึกษา</h2>
+    <form action="#" method="post">
+        <label for="gender">คำนำหน้า:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">นาย</option>
+            <option value="female">นางสาว</option>
+        </select>
+        <label for="fullName">ชื่อ:</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <label for="fullName">นามสกุล:</label>
+        <input type="text" id="fullName" name="fullName" required><br>
+
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">หมายเลขโทรศัพท์:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="dob">วันเกิด:</label>
+        <input type="date" id="dob" name="dob" required>
+        <label for="gender">เพศ:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">ชาย</option>
+            <option value="female">หญิง</option>
+            <option value="other">อื่น ๆ</option>
+        </select><br>
+
+        <label for="course">สาขาวิชา:</label>
+        <input type="text" id="course" name="course" required>
+        <label for="year">ระดับชั้นปีที่ศึกษา:</label>
+        <input type="number" id="year" name="year" min="1" required><br>
+
+        <button type="submit">ส่งใบสมัคร</button>
+    </form>
+</body>
+</html>
